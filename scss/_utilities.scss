@@ -80,3 +80,21 @@ input[class^="btn-"]:hover {
     margin: 4rem 0;
   }
 }
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bottom-line {
+  height: 10px;
+  width: 5rem;
+  border-radius: 5rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
