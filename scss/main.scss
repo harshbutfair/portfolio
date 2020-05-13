@@ -211,6 +211,7 @@ img {
 
 // About Sections
 #about {
+    // About A
     &-a {
         .about-info {
             display: grid;
@@ -250,6 +251,67 @@ img {
             margin: 1rem;
         }
     }
+// About B
+&-b {
+    .progress {
+        overflow: hidden;
+        height: 12px;
+        background:$medium-color;
+        border-radius: 5px;
+        margin-bottom: 0.6rem;
+
+        div {
+            height: 100%;
+            color: #fff;
+            text-align: center;
+            background:$main-color ;
+            border-radius: 5px;
+        }
+    }
+}
+// About C
+
+&-c {
+    .about-logos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+
+        img {
+            width: 80%;
+            padding-left: 20px;
+        }
+    }
+}
+// About D
+&-d {
+    .testimonials {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0.5rem;
+
+        ul {
+            list-style: none;
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        p {
+            border: 1px solid $medium-color;
+            border-radius: 5px;
+            padding: 0.5rem;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+
+    }
+}
 }
 
 // Footer
